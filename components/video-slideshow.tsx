@@ -15,19 +15,19 @@ const slides = [
   },
   {
     image: "/images/yoga-bien.jpg",
-    time: "7:30 AM",
+    time: "8:00 AM",
     title: "Yoga al Amanecer",
     subtitle: "Cuando sale bien..."
   },
   {
     image: "/images/yoga-caida.jpg",
-    time: "7:30 AM",
+    time: "8:00 AM",
     title: "Yoga al Amanecer",
     subtitle: "...y cuando no tanto"
   },
   {
     image: "/images/breakfast-feast.jpg",
-    time: "8:30 AM",
+    time: "9:00 AM",
     title: "El Gran Festín",
     subtitle: "Desayuno de reyes"
   },
@@ -39,7 +39,7 @@ const slides = [
   },
   {
     image: "/images/beach-picnic.jpg",
-    time: "12:30 PM",
+    time: "1:00 PM",
     title: "El Picnic de los Campeones",
     subtitle: "Festín bajo las palmeras"
   },
@@ -57,9 +57,15 @@ const slides = [
   },
   {
     image: "/images/picada-sunset.jpg",
-    time: "6:30 PM",
+    time: "7:30 PM",
     title: "La Picada Legendaria",
     subtitle: "Atardecer dorado"
+  },
+  {
+    image: "/images/fiesta-gala.jpg",
+    time: "9:30 PM",
+    title: "La Gran Fiesta de Gala",
+    subtitle: "¡Es de gala, nobleza!"
   },
   {
     image: "/images/casa-ferradura.jpg",

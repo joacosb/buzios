@@ -1,6 +1,6 @@
 "use client"
 
-import { Coffee, Sandwich, Waves, Wine, Sun, TreePalm, Sparkles, Beer, Trophy, Volleyball } from "lucide-react"
+import { Coffee, Sandwich, Waves, Wine, Sun, TreePalm, Sparkles, Beer, Trophy, Volleyball, Star } from "lucide-react"
 import { motion } from "motion/react"
 import { useInView } from "motion/react"
 import { useRef } from "react"
@@ -99,7 +99,7 @@ function ScheduleItem({ time, title, description, details, icon, index, image, i
 
 const scheduleItems = [
   {
-    time: "7:30 AM",
+    time: "8:00 AM",
     title: "El Despertar del Cuerpo y el Alma",
     description: "Antes de que el mundo despierte, los guerreros más iluminados se reunirán para una sesión de yoga sagrado. Como pueden ver en las fotos, a veces sale perfecto... y a veces terminamos en el piso. Pero eso es parte del encanto.",
     details: [
@@ -115,7 +115,7 @@ const scheduleItems = [
     secondImageAlt: "Yoga fail - cuando la gravedad gana"
   },
   {
-    time: "8:30 AM",
+    time: "9:00 AM",
     title: "El Gran Festín del Amanecer",
     description: "Los primeros rayos del sol tropical iluminarán un desayuno digno de los reyes más caprichosos del reino.",
     details: [
@@ -131,7 +131,7 @@ const scheduleItems = [
     imageAlt: "Desayuno abundante con frutas, café y huevos"
   },
   {
-    time: "10:00 AM",
+    time: "10:30 AM",
     title: "La Travesía a Praia do Forno",
     description: "Emprenderemos una expedición hacia la legendaria Praia do Forno, una joya escondida de aguas turquesas y arena dorada que solo los verdaderos aventureros conocen.",
     details: [
@@ -144,9 +144,14 @@ const scheduleItems = [
     imageAlt: "Praia do Forno - vista aérea de aguas turquesas"
   },
   {
-    time: "12:30 PM",
+    time: "1:00 PM",
     title: "El Picnic de los Campeones",
     description: "Bajo la sombra de palmeras milenarias, desplegaremos un festín de sándwiches artesanales que harían envidiar a cualquier banquete medieval.",
+    details: [
+      "Sanguches de fiambres varios",
+      "Una selección digna de los paladares más exigentes",
+      "Bebidas refrescantes al borde del mar"
+    ],
     icon: <Sandwich className="w-7 h-7" />,
     image: "/images/beach-picnic.jpg",
     imageAlt: "Picnic en la playa con sándwiches y frutas"
@@ -168,7 +173,7 @@ const scheduleItems = [
   {
     time: "5:00 PM",
     title: "El Gran Torneo de la Oca",
-    description: "En las orillas de la piscina encantada, se celebrará el legendario Campeonato del Juego de la Oca (el místico juego de las manos). Los derrotados deberán cumplir su penitencia sagrada: asistir en la preparación de la picada.",
+    description: "A la orilla del mar, con los pies en la arena, se celebrará el legendario Campeonato del Juego de la Oca (el místico juego de las manos). Los derrotados deberán cumplir su penitencia sagrada: asistir en la preparación de la picada.",
     details: [
       "Competencia feroz entre nobles",
       "Reflejos puestos a prueba",
@@ -188,7 +193,7 @@ const scheduleItems = [
     imageAlt: "Piscina al atardecer con cervezas y relax"
   },
   {
-    time: "6:30 PM",
+    time: "7:30 PM",
     title: "El Atardecer Dorado & La Picada Legendaria",
     description: "Mientras el sol pinte el cielo de colores imposibles, nos deleitaremos con una picada que los bardos cantarán por generaciones. Preparada con amor... y con la ayuda de los perdedores del torneo.",
     details: [
@@ -200,6 +205,20 @@ const scheduleItems = [
     icon: <Wine className="w-7 h-7" />,
     image: "/images/picada-sunset.jpg",
     imageAlt: "Picada gourmet al atardecer junto a la piscina"
+  },
+  {
+    time: "9:30 PM",
+    title: "La Gran Fiesta de Gala",
+    description: "El broche de oro de la jornada épica: una noche de gala en el salón de eventos de la mansión. Trajes de etiqueta, champagne y la elegancia de los grandes. ¡Es de gala, nobleza — a vestirse a la altura!",
+    details: [
+      "Vestimenta formal obligatoria",
+      "Salón de eventos de la Casa Maravilhosa",
+      "Champagne y cócteles de autor",
+      "Música en vivo y baile hasta el amanecer"
+    ],
+    icon: <Star className="w-7 h-7" />,
+    image: "/images/fiesta-gala.jpg",
+    imageAlt: "Fiesta de gala en el salón de eventos de la mansión"
   }
 ]
 

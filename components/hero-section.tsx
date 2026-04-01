@@ -61,7 +61,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-muted-foreground uppercase tracking-[0.3em] text-sm mb-4"
         >
-          Los Grandes Maestros Dul & Joaco presentan
+          Por la pareja más joven, Dul & Joaco presentan
         </motion.p>
 
         {/* Main title */}
