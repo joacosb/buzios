@@ -209,11 +209,11 @@ const scheduleItems = [
   {
     time: "9:30 PM",
     title: "La Gran Fiesta de Gala",
-    description: "El broche de oro de la jornada épica: una noche de gala en el salón de eventos de la mansión. Trajes de etiqueta, champagne y la elegancia de los grandes. ¡Es de gala, nobleza — a vestirse a la altura!",
+    description: "El broche de oro de la jornada épica: una noche de gala en el salón de eventos de la mansión. Trajes de etiqueta, cervezas, caipirinhas y daikiris para la nobleza. ¡Es de gala — a vestirse a la altura!",
     details: [
       "Vestimenta formal obligatoria",
       "Salón de eventos de la Casa Maravilhosa",
-      "Champagne y cócteles de autor",
+      "Cervezas, caipirinhas y daikiris para todos",
       "Música en vivo y baile hasta el amanecer"
     ],
     icon: <Star className="w-7 h-7" />,
